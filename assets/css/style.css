@@ -206,4 +206,17 @@ article div img {
 }
 
 @media screen and (min-width: 1200px) {
+  main {
+    height: 100vh;
+    overflow: auto;
+  }
+
+  article div {
+    display: flex;
+  }
+
+  article div img {
+    order: -1;
+    width: 50%;
+  }
 }
