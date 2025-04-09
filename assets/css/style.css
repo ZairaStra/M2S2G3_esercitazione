@@ -3,9 +3,27 @@
   box-sizing: border-box;
 }
 
+h1,
+h2 {
+  font-weight: bolder;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
 body {
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  font-family: "Outfit";
+  color: #742305;
+  background-color: #ffffff;
 }
 
 header {
@@ -26,7 +44,6 @@ ul li {
   width: 5rem;
   background-color: #ffdf7f;
   border-radius: 3rem;
-  color: #612406;
   text-align: center;
   font-size: small;
   font-weight: 600;
@@ -43,4 +60,50 @@ ul li {
 }
 li img {
   width: 2.3rem;
+}
+
+main {
+  padding: 1rem;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.card {
+  border-radius: 4rem;
+  background-color: #fbf7e3;
+  width: 48%;
+  text-align: center;
+}
+.card img {
+  border-top-right-radius: 4rem;
+  border-top-left-radius: 4rem;
+  width: 100%;
+}
+
+.card-caption {
+  display: flex;
+  padding-top: 1rem;
+  padding-inline: 2rem;
+}
+
+.card-caption p {
+  font-size: smaller;
+}
+
+.card button {
+  margin: auto;
+  margin-bottom: 0.5rem;
+  padding-block: 0.5rem;
+  padding-inline: 2rem;
+  border: none;
+  border-radius: 3rem;
+  background-color: #ffdf7f;
+  color: inherit;
+  font-size: x-small;
+  font-weight: bold;
 }
