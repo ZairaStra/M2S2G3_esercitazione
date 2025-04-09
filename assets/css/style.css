@@ -22,9 +22,9 @@ ul {
 }
 ul li {
   list-style-type: none;
-  padding: 0.5rem 0.3rem;
+  padding: 0.6rem 0.5rem;
   width: 5rem;
-  background-color: #f3df85;
+  background-color: #ffdf7f;
   border-radius: 3rem;
   color: #612406;
   text-align: center;
@@ -36,10 +36,11 @@ ul li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.2rem 0.5rem;
+  padding-block: 1.5rem;
+  padding-inline: 0.8rem;
   width: 8rem;
   font-size: x-large;
 }
 li img {
-  width: 3rem;
+  width: 2.3rem;
 }
