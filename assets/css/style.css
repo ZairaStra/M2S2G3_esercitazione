@@ -63,7 +63,8 @@ li img {
 }
 
 main {
-  padding: 1rem;
+  padding-top: 1rem;
+  padding-inline: 1rem;
 }
 
 section {
@@ -106,4 +107,18 @@ section {
   color: inherit;
   font-size: x-small;
   font-weight: bold;
+}
+
+article {
+  margin-top: 3rem;
+}
+
+article div {
+  padding: 2rem;
+  background-color: #fbf7e3;
+  border-radius: 3rem;
+}
+
+article div img {
+  width: 100%;
 }
