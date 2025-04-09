@@ -174,7 +174,6 @@ article div img {
 
   header {
     padding: 1rem;
-    width: 20rem;
   }
   ul {
     flex-wrap: wrap;
@@ -198,4 +197,13 @@ article div img {
   section {
     flex-wrap: nowrap;
   }
+}
+
+@media screen and (min-width: 992px) {
+  main {
+    max-width: 60;
+  }
+}
+
+@media screen and (min-width: 1200px) {
 }
