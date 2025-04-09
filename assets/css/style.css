@@ -87,8 +87,15 @@ section {
 
 .card-caption {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: baseline;
   padding-top: 1rem;
   padding-inline: 2rem;
+}
+
+.card-caption h4 {
+  margin-bottom: 0;
 }
 
 .card-caption p {
@@ -110,15 +117,16 @@ section {
 
 article {
   margin-top: 3rem;
+  margin-inline: 1rem;
 }
 
-article div {
+#container {
   padding: 2rem;
   background-color: #fbf7e3;
   border-radius: 3rem;
 }
 
-article div img {
+#container img {
   width: 100%;
 }
 
@@ -211,12 +219,16 @@ article div img {
     overflow: auto;
   }
 
-  article div {
+  #container {
     display: flex;
   }
 
-  article div img {
+  #container img {
     order: -1;
     width: 50%;
+  }
+
+  #container div {
+    padding-left: 1rem;
   }
 }
