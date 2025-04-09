@@ -20,7 +20,6 @@ p {
 
 body {
   margin: 0;
-
   font-family: "Outfit";
   color: #742305;
   background-color: #ffffff;
@@ -121,4 +120,49 @@ article div {
 
 article div img {
   width: 100%;
+}
+
+@media screen and (max-width: 575px) {
+  header {
+    margin-top: 1rem;
+    border-radius: 5rem;
+  }
+  ul {
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0.5rem;
+  }
+
+  ul li {
+    width: 40%;
+  }
+  #logo {
+    order: -1;
+    width: 70%;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  #logo img {
+    width: 4rem;
+  }
+  main {
+    padding-inline: 0;
+  }
+
+  main h1 {
+    text-align: center;
+  }
+
+  main section {
+    justify-content: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  article h2 {
+    text-align: center;
+  }
 }
