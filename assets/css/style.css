@@ -74,14 +74,14 @@ section {
 }
 
 .card {
-  border-radius: 4rem;
+  border-radius: 3rem;
   background-color: #fbf7e3;
   width: 48%;
   text-align: center;
 }
 .card img {
-  border-top-right-radius: 4rem;
-  border-top-left-radius: 4rem;
+  border-top-right-radius: 3rem;
+  border-top-left-radius: 3rem;
   width: 100%;
 }
 
@@ -115,6 +115,10 @@ section {
   font-weight: bold;
 }
 
+#fifth-card {
+  display: none;
+}
+
 article {
   margin-top: 3rem;
   margin-inline: 1rem;
@@ -133,7 +137,8 @@ article {
 @media screen and (max-width: 575px) {
   header {
     margin-top: 1rem;
-    border-radius: 5rem;
+    margin-inline: 0.5rem;
+    border-radius: 6rem;
   }
   ul {
     flex-wrap: wrap;
@@ -199,36 +204,41 @@ article {
   }
 
   main {
-    padding: rem;
+    height: 100vh;
+    overflow: auto;
   }
 
   section {
     flex-wrap: nowrap;
   }
+
+  .card-caption {
+    padding-inline: 0.5rem;
+  }
+
+  #last-card {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 992px) {
-  main {
-    max-width: 60;
+  #fourth-card {
+    display: inline-block;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  main {
-    height: 100vh;
-    overflow: auto;
+  #fifth-card {
+    display: inline-block;
   }
 
   #container {
     display: flex;
+    gap: 1rem;
   }
 
   #container img {
     order: -1;
     width: 50%;
-  }
-
-  #container div {
-    padding-left: 1rem;
   }
 }
